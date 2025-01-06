@@ -71,7 +71,7 @@ test.describe('Login', () => {
   test('login success', async ({ page }) => {
     // Định nghĩa URL và thông tin đăng nhập
     const baseUrl = 'https://example.com';
-    const validEmail = 'testuser@gmail.com';
+    const validEmail = 'abc@gmail.com';
     const validPassword = 'password123';
 
     // Điều hướng đến trang đăng nhập
